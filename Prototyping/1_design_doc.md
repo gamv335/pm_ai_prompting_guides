@@ -55,6 +55,9 @@ Must avoid or keep out of scope:
 - [Anything unrealistic]
 - [Anything the prototype should not include]
 
+Visual style and design direction:
+[Describe how the prototype should look and feel. Include any relevant notes on brand, tone, colours, typography, spacing, layout, components, accessibility, reference products, or visual styles to avoid.]
+
 Known technical preferences, if any:
 [For example: Figma, Stitch, React, Vite, Tailwind, shadcn, Claude, Codex, Google AI Studio, no backend, mock data only, Supabase, Firebase, etc.]
 
@@ -79,7 +82,7 @@ Once enough information is available, create the design document for review.
 
 ### 1. Design overview
 
-Explain what we are designing, who it is for, what problem it solves, and what the first version should help us test or communicate.
+Explain what we are designing, who it is for, what problem it solves, and what the first version should help us test or communicate. 
 
 ### 2. Main user journey
 
@@ -131,22 +134,7 @@ Separate:
 
 ### 6. requirements
 
-### 7. Edge cases and error states
-
-Identify important edge cases, such as:
-
-- First-time user
-- Returning user
-- Incomplete journey
-- Missing data
-- Empty state
-- Invalid input
-- No permission
-- No connection
-- Sync or save failure
-- User needs help
-- User takes an unexpected route
-- Sensitive or safeguarding concern, if relevant
+### 7. Visual design and styling guide
 
 ### 8. Stack specification
 
@@ -180,6 +168,8 @@ Include relevant checks such as:
 
 ---
 
+
+
 # Recommended Stage 1 Workflow
 
 ```text
@@ -195,9 +185,10 @@ Idea
 
 ---
 
+
+
 # Key Principle
 
 Design first. Plan second. Build third.
 
 The AI should first help clarify what should exist and why. Only after the design is approved should it create a project plan for how to build it.
-
