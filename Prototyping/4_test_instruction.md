@@ -10,24 +10,12 @@ The implementation plan should already contain the task’s acceptance criteria,
 
 Use the approved design document and implementation plan as the source of truth.
 
-Test or provide testing instructions for the following task only:
+Provide testing instructions for the following task only:
 
 Task ID or task name:
 [Add task ID or task name]
 
-Do not test unrelated tasks.
-Do not redesign the product.
-Do not add new requirements.
-Do not mark the task as complete unless the test results support it.
-
 Check the task against:
-
-* Its acceptance criteria
-* Its review checkpoint
-* Its testing checkpoint
-* The approved design document
-* The approved styling and accessibility requirements
-* Any relevant edge cases
 
 If you can run tests, run the relevant tests and report the results.
 
@@ -48,3 +36,19 @@ After testing:
 7. Recommend the next task only if this one passed.
 
 Stop after testing this task.
+
+# Code Testing Prompt
+
+Write test for the [file name, function, snippet, workflow] based on the requirements from Task ID [Number]. 
+
+Run the tests and fix until all case pass.
+
+# Bug Fix Testing Prompt
+
+There's a bug: [Insert description]
+
+Write a run failing tests that demonstrate the bug. 
+
+Once the bug is fixes, write tests to ensure is fixed. 
+
+
